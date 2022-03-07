@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    >
 
     <ImageView
         android:id="@+id/circle_1"
@@ -160,5 +162,216 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         />
+
+
+    <View
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:background="#D2D5DB"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/firstRowKeyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/keyboard"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="1"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="15dp"/>
+        <TextView
+            android:id="@+id/num2"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+            android:layout_marginEnd="6dp"
+            android:gravity="center"
+            android:text="@string/num2"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/num3"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+            android:layout_marginEnd="6dp"
+            android:gravity="center"
+            android:text="@string/num3"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondRowKeyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/firstRowKeyboard"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/num4"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:gravity="center"
+            android:text="@string/num4"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="5dp"/>
+        <TextView
+            android:id="@+id/num5"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+
+            android:gravity="center"
+            android:layout_marginEnd="6dp"
+            android:text="@string/num5"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="5dp"
+ />
+        <TextView
+            android:id="@+id/num6"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+
+            android:gravity="center"
+            android:layout_marginEnd="6dp"
+            android:text="@string/num6"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="5dp"
+ />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdRowKeyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/secondRowKeyboard"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/num7"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+
+            android:gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:text="@string/num7"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="5dp"
+ />
+        <TextView
+            android:id="@+id/num8"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+
+            android:gravity="center"
+            android:layout_marginEnd="6dp"
+            android:text="@string/num8"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="5dp"
+ />
+        <TextView
+            android:id="@+id/num9"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+
+            android:gravity="center"
+            android:layout_marginEnd="6dp"
+            android:text="@string/num9"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="5dp"
+ />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthRowKeyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/thirdRowKeyboard"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/num0"
+            android:layout_width="117dp"
+            android:layout_height="47dp"
+            android:background="@drawable/num_keyboard"
+            android:text="@string/num0"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/Sofia_Pro_Regular_Az"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+ />
+    </LinearLayout>
+
+    <View
+        android:layout_width="22.64dp"
+        android:layout_height="18dp"
+        android:background="@drawable/ic_delete"
+        android:layout_marginLeft="55.88dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/thirdRowKeyboard"
+        app:layout_constraintLeft_toRightOf="@id/fourthRowKeyboard"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
