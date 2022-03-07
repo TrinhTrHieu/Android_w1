@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Bin/mon_hoc/NAM4-HK2/android_class/week1/Android_w1/app/src/main/res/drawable/otp.xml" value="0.2615" />
+        <entry key="..\:/Bin/mon_hoc/NAM4-HK2/android_class/week1/Android_w1/app/src/main/res/drawable/otp_selected.xml" value="0.2615" />
+        <entry key="..\:/Bin/mon_hoc/NAM4-HK2/android_class/week1/Android_w1/app/src/main/res/drawable/otp_unselected.xml" value="0.2615" />
+        <entry key="..\:/Bin/mon_hoc/NAM4-HK2/android_class/week1/Android_w1/app/src/main/res/font/sofia_pro.xml" value="0.34324324324324323" />
+        <entry key="..\:/Bin/mon_hoc/NAM4-HK2/android_class/week1/Android_w1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Bin/mon_hoc/NAM4-HK2/android_class/week1/Android_w1/app/src/main/res/layout/asdas.xml" value="0.3171171171171171" />
+        <entry key="..\:/Bin/mon_hoc/NAM4-HK2/android_class/week1/Android_w1/app/src/main/res/layout/verification_code.xml" value="0.3171171171171171" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
